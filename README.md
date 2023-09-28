@@ -66,17 +66,15 @@ Se preparó una versión ejecutable para que los usuarios puedan utilizar StockM
 
 ## 🎨 Capturas
 
-* [Viewer](https://github.com/nhn/tui.editor/tree/master/docs/en/viewer.md) : Supports a mode to display only markdown data without an editing area.
-* [Internationalization (i18n)](https://github.com/nhn/tui.editor/tree/master/docs/en/i18n.md) : Supports English, Dutch, Korean, Japanese, Chinese, Spanish, German, Russian, French, Ukrainian, Turkish, Finnish, Czech, Arabic, Polish, Galician, Swedish, Italian, Norwegian, Croatian + language and you can extend.
-* [Widget](https://github.com/nhn/tui.editor/tree/master/docs/en/widget.md) : This feature allows you to configure the rules that replaces the string matching to a specific `RegExp` with the widget node.
-* [Custom Block](https://github.com/nhn/tui.editor/tree/master/docs/en/custom-block.md) : Nodes not supported by Markdown can be defined through custom block. You can display the node what you want through writing the parsing logic with custom block.
+![image](https://github.com/GermanPagano/StockManager-pro/assets/80891761/0fbcb695-271e-4221-9610-1f215d54910f)
+
+![image](https://github.com/GermanPagano/StockManager-pro/assets/80891761/9687e4ee-ffd6-444f-a172-b5641da88f83)
+
+![image](https://github.com/GermanPagano/StockManager-pro/assets/80891761/83a3c8c3-7e93-4f89-a104-3435cd5d110c)
 
 
 
-
-
-
-#### Run test
+#### Corre la App 
 
 ``` sh
 #### Ejecutar la Aplicación
@@ -101,27 +99,15 @@ Asegúrate de proporcionar cualquier información adicional relevante, como requ
 
 ```
 
-### Pull Request
+## 💬 Contribuir
 
-Before uploading your PR, run test one last time to check if there are any errors. If it has no errors, commit and then push it!
-
-For more information on PR's steps, please see links in the Contributing section.
-
-## 💬 Contributing
-
-* [Code of Conduct](https://github.com/nhn/tui.editor/blob/master/CODE_OF_CONDUCT.md)
-* [Contributing Guideline](https://github.com/nhn/tui.editor/blob/master/CONTRIBUTING.md)
-* [Commit Convention](https://github.com/nhn/tui.editor/blob/master/docs/COMMIT_MESSAGE_CONVENTION.md)
-* [Issue Guidelines](https://github.com/nhn/tui.editor/tree/master/.github/ISSUE_TEMPLATE)
+Si deseas contribuir a este proyecto, ¡tu ayuda es bienvenida! Trabajemos juntos para hacer que StockManager Pro sea aún mejor.
+### ¿Tenes alguna idea, sugerencia o te gustaría colaborar en el proyecto?
+No dudes en ponerte en contacto con nosotros. Juntos podemos hacer que StockManager Pro sea aún más impresionante. 
+¡Espero trabajar con vos!
 
 
 
-## 🚀 Used By
-
-* [NHN Dooray! - Collaboration Service (Project, Messenger, Mail, Calendar, Drive, Wiki, Contacts)](https://dooray.com)
-* [UNOTES - Visual Studio Code Extension](https://marketplace.visualstudio.com/items?itemName=ryanmcalister.Unotes)
-
-
-## 📜 License
+## 📜 Licencia
 
 This software is licensed under the [MIT](https://github.com/nhn/tui.editor/blob/master/LICENSE) © [NHN Cloud](https://github.com/nhn).
