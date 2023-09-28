@@ -10,131 +10,95 @@
 ## 🚩 Table of Contents
 
 - [Lenguaje](#-lenguaje)
-- [Why TOAST UI Editor?](#-why-toast-ui-editor)
-- [Features](#-features)
-- [Examples](#-examples)
-- [Browser Support](#-browser-support)
-- [Pull Request Steps](#-pull-request-steps)
-- [Contributing](#-contributing)
-- [TOAST UI Family](#-toast-ui-family)
-- [Used By](#-used-by)
-- [License](#-license)
+- [Capturas de uso](#capturas-de-uso)
+- [Licencia](#-licencia)
 
 
-## 📦 Packages
+## 📦 Lenguaje
 
-## 🤖 Why TOAST UI Editor?
 
-TOAST UI Editor provides **Markdown mode** and **WYSIWYG mode**. Depending on the type of use you want like production of *Markdown* or maybe to just edit the *Markdown*. The TOAST UI Editor can be helpful for both the usage. It offers **Markdown mode** and **WYSIWYG mode**, which can be switched any point in time.
+## 🤖 ¿Cómo se desarrolló StockManager Pro?
 
-### Productive Markdown Mode
+StockManager Pro fue desarrollado utilizando una combinación de tecnologías y enfoques que lo hacen una herramienta versátil y efectiva para la gestión de inventario. Aquí hay una descripción general de cómo se llevó a cabo el desarrollo:
 
-![markdown](https://user-images.githubusercontent.com/37766175/121464762-71e2fc80-c9ef-11eb-9a0a-7b06e08d3ccb.png)
+### Tecnología Base:
 
-**CommonMark + GFM Specifications**
+Se utilizó el lenguaje de programación VB.NET para la lógica de la aplicación.
+La interfaz de usuario se diseñó y desarrolló utilizando Windows Forms para una experiencia de usuario intuitiva y eficiente.
+La base de datos se gestionó mediante MySQL para el almacenamiento y recuperación eficientes de datos.
 
-Today *CommonMark* is the de-facto *Markdown* standard. *GFM (GitHub Flavored Markdown)* is another popular specification based on *CommonMark* - maintained by *GitHub*, which is the *Markdown* mostly used. TOAST UI Editor follows both [*CommonMark*](http://commonmark.org/) and [*GFM*](https://github.github.com/gfm/) specifications. Write documents with ease using productive tools provided by TOAST UI Editor and you can easily open the produced document wherever the specifications are supported.
+### Gestión de Base de Datos:
 
-* **Live Preview** : Edit Markdown while keeping an eye on the rendered HTML. Your edits will be applied immediately.
-* **Scroll Sync** : Synchronous scrolling between Markdown and Preview. You don't need to scroll through each one separately.
-* **Syntax Highlight** : You can check broken Markdown syntax immediately.
+Se diseñó una estructura de base de datos eficiente que incluye tablas para productos, ventas y otros datos relevantes.
+Se implementaron consultas SQL para realizar operaciones de inserción, actualización y eliminación en la base de datos.
 
-### Easy WYSIWYG Mode
+### Interfaz de Usuario Amigable:
 
-![wysiwyg](https://user-images.githubusercontent.com/37766175/121808381-251f5000-cc93-11eb-8c47-4f5a809de2b3.png)
+Se creó una interfaz de usuario amigable que permite a los usuarios administrar productos, registrar ventas y realizar búsquedas de manera sencilla.
+Se implementaron controles como DataGridViews, TextBoxes y ComboBoxes para una entrada de datos intuitiva.
 
-* **Table** : Through the context menu of the table, you can add or delete columns or rows of the table, and you can also arrange text in cells.
-* **Custom Block Editor** : The custom block area can be edited through the internal editor.
-* **Copy and Paste** : Paste anything from browser, screenshot, excel, powerpoint, etc.
+### Funcionalidad Clave:
 
-### UI
-* **Toolbar** : Through the toolbar, you can style or add elements to the document you are editing.
-![UI](https://user-images.githubusercontent.com/37766175/121808231-767b0f80-cc92-11eb-82a0-433123746982.png)
+Se incorporó la funcionalidad esencial de gestión de inventario, lo que permite a los usuarios agregar, editar y eliminar productos.
+Se implementó un registro de ventas que registra las transacciones y actualiza automáticamente el stock.
+Se habilitó la búsqueda de productos y ventas para una recuperación rápida de información.
 
-* **Dark Theme** : You can use the dark theme.
-![UI](https://user-images.githubusercontent.com/37766175/121808649-8136a400-cc94-11eb-8674-812e170ccab5.png)
+### Modularidad y Mantenimiento:
 
-### Use of Various Extended Functions - Plugins
+El código se estructuró en módulos y funciones reutilizables para facilitar el mantenimiento y la escalabilidad.
+Se aplicaron prácticas de programación sólidas para garantizar un código limpio y legible.
 
-![plugin](https://user-images.githubusercontent.com/37766175/121808323-d8d41000-cc92-11eb-9117-b92a435c9b43.png)
+### Documentación y Pruebas:
 
-CommonMark and GFM are great, but we often need more abstraction. The TOAST UI Editor comes with powerful **Plugins** in compliance with the Markdown syntax.
+Se proporcionó documentación detallada sobre el funcionamiento del sistema y cómo usarlo.
+Se realizaron pruebas exhaustivas para garantizar la precisión y confiabilidad de la aplicación.
 
-**Five basic plugins** are provided as follows, and can be downloaded and used with npm.
+### Flexibilidad:
 
-* [**`chart`**](https://github.com/nhn/tui.editor/tree/master/plugins/chart) : A code block marked as a 'chart' will render [TOAST UI Chart](https://github.com/nhn/tui.chart).
-* [**`code-syntax-highlight`**](https://github.com/nhn/tui.editor/tree/master/plugins/code-syntax-highlight) : Highlight the code block area corresponding to the language provided by [Prism.js](https://prismjs.com/).
-* [**`color-syntax`**](https://github.com/nhn/tui.editor/tree/master/plugins/color-syntax) : 
-Using [TOAST UI ColorPicker](https://github.com/nhn/tui.color-picker), you can change the color of the editing text with the GUI.
-* [**`table-merged-cell`**](https://github.com/nhn/tui.editor/tree/master/plugins/table-merged-cell) : 
-You can merge columns of the table header and body area.
-* [**`uml`**](https://github.com/nhn/tui.editor/tree/master/plugins/uml) : A code block marked as an 'uml' will render [UML diagrams](http://plantuml.com/screenshot).
+Se diseñó StockManager Pro para ser altamente configurable, lo que permite a los usuarios adaptarlo a sus necesidades específicas.
 
-## 🎨 Features
+### Despliegue y Colaboración:
+
+El proyecto se gestionó a través de GitHub, lo que facilitó la colaboración y el seguimiento de cambios.
+Se preparó una versión ejecutable para que los usuarios puedan utilizar StockManager Pro de manera conveniente.
+
+
+
+## 🎨 Capturas
 
 * [Viewer](https://github.com/nhn/tui.editor/tree/master/docs/en/viewer.md) : Supports a mode to display only markdown data without an editing area.
 * [Internationalization (i18n)](https://github.com/nhn/tui.editor/tree/master/docs/en/i18n.md) : Supports English, Dutch, Korean, Japanese, Chinese, Spanish, German, Russian, French, Ukrainian, Turkish, Finnish, Czech, Arabic, Polish, Galician, Swedish, Italian, Norwegian, Croatian + language and you can extend.
 * [Widget](https://github.com/nhn/tui.editor/tree/master/docs/en/widget.md) : This feature allows you to configure the rules that replaces the string matching to a specific `RegExp` with the widget node.
 * [Custom Block](https://github.com/nhn/tui.editor/tree/master/docs/en/custom-block.md) : Nodes not supported by Markdown can be defined through custom block. You can display the node what you want through writing the parsing logic with custom block.
 
-## 🐾 Examples
-
-* [Basic](https://nhn.github.io/tui.editor/latest/tutorial-example01-editor-basic)
-* [Viewer](https://nhn.github.io/tui.editor/latest/tutorial-example04-viewer)
-* [Using All Plugins](https://nhn.github.io/tui.editor/latest/tutorial-example12-editor-with-all-plugins)
-* [Creating the User's Plugin](https://nhn.github.io/tui.editor/latest/tutorial-example13-creating-plugin)
-* [Customizing the Toobar Buttons](https://nhn.github.io/tui.editor/latest/tutorial-example15-customizing-toolbar-buttons)
-* [Internationalization (i18n)](https://nhn.github.io/tui.editor/latest/tutorial-example16-i18n)
-
-Here are more [examples](https://nhn.github.io/tui.editor/latest/tutorial-example01-editor-basic) and play with TOAST UI Editor!
 
 
-## 🌏 Browser Support
-
-| <img src="https://user-images.githubusercontent.com/1215767/34348387-a2e64588-ea4d-11e7-8267-a43365103afe.png" alt="Chrome" width="16px" height="16px" /> Chrome | <img src="https://user-images.githubusercontent.com/1215767/34348590-250b3ca2-ea4f-11e7-9efb-da953359321f.png" alt="IE" width="16px" height="16px" /> Internet Explorer | <img src="https://user-images.githubusercontent.com/1215767/34348380-93e77ae8-ea4d-11e7-8696-9a989ddbbbf5.png" alt="Edge" width="16px" height="16px" /> Edge | <img src="https://user-images.githubusercontent.com/1215767/34348394-a981f892-ea4d-11e7-9156-d128d58386b9.png" alt="Safari" width="16px" height="16px" /> Safari | <img src="https://user-images.githubusercontent.com/1215767/34348383-9e7ed492-ea4d-11e7-910c-03b39d52f496.png" alt="Firefox" width="16px" height="16px" /> Firefox |
-| :---------: | :---------: | :---------: | :---------: | :---------: |
-| Yes | 11+ | Yes | Yes | Yes |
 
 
-## 🔧 Pull Request Steps
-
-TOAST UI products are open source, so you can create a pull request(PR) after you fix issues. Run npm scripts and develop yourself with the following process.
-
-### Setup
-
-Fork `main` branch into your personal repository. Clone it to local computer. Install node modules. Before starting development, you should check if there are any errors.
-
-```sh
-$ git clone https://github.com/{your-personal-repo}/tui.editor.git
-$ npm install
-$ npm run build toastmark
-$ npm run test editor
-```
-
-> TOAST UI Editor uses [npm workspace](https://docs.npmjs.com/cli/v7/using-npm/workspaces/), so you need to set the environment based on [npm7](https://github.blog/2021-02-02-npm-7-is-now-generally-available/). If subversion is used, dependencies must be installed by moving direct paths per package.
-
-### Develop
-
-You can see your code reflected as soon as you save the code by running a server. Don't miss adding test cases and then make green rights.
-
-#### Run snowpack-dev-server
-[snowpack](https://www.snowpack.dev/) allows you to run a development server without bundling.
-
-``` sh
-$ npm run serve editor
-```
-
-#### Run webpack-dev-server
-If testing of legacy browsers is required, the development server can still be run using a [webpack](https://webpack.js.org/).
-
-``` sh
-$ npm run serve:ie editor
-```
 
 #### Run test
 
 ``` sh
-$ npm test editor
+#### Ejecutar la Aplicación
+
+Para ejecutar la aplicación StockManager Pro en tu sistema, sigue estos pasos:
+
+1. Asegúrate de tener el entorno de ejecución de .NET instalado en tu máquina. Puedes descargarlo desde [el sitio oficial de .NET](https://dotnet.microsoft.com/download/dotnet).
+
+2. Clona o descarga el repositorio de este proyecto desde GitHub.
+
+3. Abre el proyecto en tu entorno de desarrollo de VB.NET, como Visual Studio.
+
+4. Compila la aplicación para asegurarte de que no haya errores de compilación.
+
+5. Una vez que la aplicación se haya compilado sin errores, puedes ejecutarla haciendo clic en el botón "Ejecutar" (o presionando F5) en tu entorno de desarrollo.
+
+6. La aplicación se abrirá y estará lista para su uso. Puedes explorar todas las funciones y características disponibles.
+
+¡Listo! Ahora puedes disfrutar de StockManager Pro en tu sistema.
+
+Asegúrate de proporcionar cualquier información adicional relevante, como requisitos del sistema o configuraciones específicas que los usuarios deben tener en cuenta al ejecutar tu aplicación.
+
 ```
 
 ### Pull Request
@@ -150,14 +114,6 @@ For more information on PR's steps, please see links in the Contributing section
 * [Commit Convention](https://github.com/nhn/tui.editor/blob/master/docs/COMMIT_MESSAGE_CONVENTION.md)
 * [Issue Guidelines](https://github.com/nhn/tui.editor/tree/master/.github/ISSUE_TEMPLATE)
 
-
-## 🍞 TOAST UI Family
-
-- [TOAST UI Calendar](https://github.com/nhn/tui.calendar)
-- [TOAST UI Chart](https://github.com/nhn/tui.chart)
-- [TOAST UI Grid](https://github.com/nhn/tui.grid)
-- [TOAST UI Image Editor](https://github.com/nhn/tui.image-editor)
-- [TOAST UI Components](https://github.com/nhn)
 
 
 ## 🚀 Used By
