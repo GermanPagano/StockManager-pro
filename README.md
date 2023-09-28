@@ -9,7 +9,7 @@
 
 ## 🚩 Table of Contents
 
-- [Packages](#-packages)
+- [Lenguaje](#-lenguaje)
 - [Why TOAST UI Editor?](#-why-toast-ui-editor)
 - [Features](#-features)
 - [Examples](#-examples)
@@ -22,30 +22,6 @@
 
 
 ## 📦 Packages
-
-### TOAST UI Editor
-
-| Name | Description |
-| --- | --- |
-| [`@toast-ui/editor`](https://github.com/nhn/tui.editor/tree/master/apps/editor) | Plain JavaScript component |
-
-### TOAST UI Editor's Wrappers
-
-| Name | Description |
-| --- | --- |
-| [`@toast-ui/react-editor`](https://github.com/nhn/tui.editor/tree/master/apps/react-editor) | [React](https://reactjs.org/) wrapper component |
-| [`@toast-ui/vue-editor`](https://github.com/nhn/tui.editor/tree/master/apps/vue-editor) | [Vue](https://vuejs.org/) wrapper component |
-
-### TOAST UI Editor's Plugins
-
-| Name | Description |
-| --- | --- |
-| [`@toast-ui/editor-plugin-chart`](https://github.com/nhn/tui.editor/tree/master/plugins/chart) | Plugin to render chart |
-| [`@toast-ui/editor-plugin-code-syntax-highlight`](https://github.com/nhn/tui.editor/tree/master/plugins/code-syntax-highlight) | Plugin to highlight code syntax |
-| [`@toast-ui/editor-plugin-color-syntax`](https://github.com/nhn/tui.editor/tree/master/plugins/color-syntax) | Plugin to color editing text |
-| [`@toast-ui/editor-plugin-table-merged-cell`](https://github.com/nhn/tui.editor/tree/master/plugins/table-merged-cell) | Plugin to merge table columns |
-| [`@toast-ui/editor-plugin-uml`](https://github.com/nhn/tui.editor/tree/master/plugins/uml) | Plugin to render UML |
-
 
 ## 🤖 Why TOAST UI Editor?
 
